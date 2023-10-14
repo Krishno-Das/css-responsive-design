@@ -1,0 +1,463 @@
+@media screen and (max-width:992px) {
+
+
+
+    * {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 30px;
+    }
+
+    body {
+
+
+        //  nav section
+
+        .header-banner-cont {
+
+          >img{
+            display: none;
+          }
+
+            .nav-bar {
+                padding-left: 20px;
+                #burger-menu {
+
+                    display: block;
+                }
+
+                .nav-menu {
+                    background-color: #fff1da;
+                    position: absolute;
+                    left: -1000px;
+                    top: 120px;
+                    width: 100vw;
+                    max-height: 1111px;
+                    padding: 30px 0;
+
+
+                    >ul {
+                        flex-direction: column;
+
+                        text-align: center;
+                    }
+                }
+            }
+
+
+
+
+            .main-container {
+                padding-left: 20px;
+                h6 {
+                    font-size: 1rem;
+
+                }
+
+                h1 {
+                    font-size: 2rem;
+                }
+
+
+            }
+        }
+
+
+
+        // service section
+
+        .services-cont {
+
+            .service-box {
+
+                flex-wrap: wrap;
+                justify-content: center;
+                row-gap: 30px;
+
+                .service {
+
+                    margin: 20px auto;
+                }
+            }
+        }
+
+
+        // top destination section
+
+        .top-destinations-cont {
+
+            .top-destination-box {
+
+                flex-wrap: wrap;
+                display: flex;
+                justify-content: center;
+                gap: 40px;
+                padding: 0 60px;
+
+            }
+
+            .destination {
+
+                margin: auto;
+            }
+        }
+
+
+
+
+        // book trip section
+
+
+        .book-your-nex-trip-cont {
+
+            row-gap: 50px;
+
+            .left-side-text {
+                text-align: center;
+                margin: auto;
+
+
+                .step-box {
+                    margin: auto;
+                    margin-top: 30px;
+                }
+            }
+
+            .right-side-card {
+                margin: auto;
+
+                .trip-card {
+
+                    .card-top {
+
+                        display: none;
+                    }
+
+                }
+            }
+        }
+
+
+
+        // what-people-say-section
+
+
+        .people-say-about-us-cont {
+
+            text-align: center;
+
+            .people-say-text {
+                margin: auto;
+            }
+
+            .people-say-card {
+
+                margin: auto;
+
+                .people-say-card-top {
+
+                    
+                    left: 20px;
+                    display: block;
+                }
+            }
+        }
+
+        //     logo section
+        // 
+
+        .logo-cont {
+
+            .botton-logo {
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+            }
+        }
+
+
+
+        // subscribe section
+
+
+        .subscribe-cont {
+
+            .bg-shape2 {
+                max-width: 550px;
+            }
+
+
+
+            .subscribe-text-box {
+
+                input {
+                    margin-bottom: 30px;
+                }
+
+            }
+
+
+
+        }
+    }
+
+
+
+
+    .footer-cont {
+
+        padding: 0 20px;
+
+
+        column-gap: 20px;
+
+            
+        .footer-logo-sec{
+            max-width: 200px;
+        }
+
+
+        .footer-media-sec {
+            margin: auto;
+        }
+    }
+}
+
+
+@media screen and (max-width:640px) {
+
+
+
+    * {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 30px;
+    }
+
+    body {
+
+        //  nav section
+
+        .header-banner-cont {
+
+            background-image: url('../images/banner mobile.png');
+            background-position: center;
+
+            .nav-bar {
+
+                #burger-menu {
+
+                    display: block;
+                }
+
+                .nav-menu {
+                    background-color: #fff1da;
+                    position: absolute;
+                    left: -1000px;
+                    top: 120px;
+                    width: 100vw;
+                    max-height: 1111px;
+                    padding: 30px 0;
+
+
+                    >ul {
+                        flex-direction: column;
+
+                        text-align: center;
+                    }
+                }
+            }
+
+
+
+
+            .main-container {
+                h6 {
+                    font-size: 1rem;
+
+                }
+
+                h1 {
+                    font-size: 2rem;
+                }
+
+                max-width: 200px;
+                margin: 0;
+
+            }
+        }
+
+
+
+        // service section
+
+        .services-cont {
+
+            .service-box {
+
+                flex-wrap: wrap;
+                justify-content: center;
+                row-gap: 30px;
+
+                .service {
+
+                    margin: 20px auto;
+                }
+            }
+        }
+
+
+        // top destination section
+
+        .top-destinations-cont {
+
+            .top-destination-box {
+
+                flex-wrap: wrap;
+                display: flex;
+                justify-content: center;
+                gap: 40px;
+                padding: 0 60px;
+
+            }
+
+            .destination {
+
+                margin: auto;
+            }
+        }
+
+
+
+
+        // book trip section
+
+
+        .book-your-nex-trip-cont {
+
+            row-gap: 50px;
+
+            .left-side-text {
+                text-align: center;
+                margin: auto;
+
+
+                .step-box {
+                    margin: auto;
+                    margin-top: 30px;
+                }
+            }
+
+            .right-side-card {
+                margin: auto;
+
+                .trip-card {
+
+                    .card-top {
+
+                        display: none;
+                    }
+
+                }
+            }
+        }
+
+
+
+        // what-people-say-section
+
+
+        .people-say-about-us-cont {
+
+            text-align: center;
+
+            .people-say-text {
+                margin: auto;
+            }
+
+            .people-say-card {
+
+                margin: auto;
+
+                .people-say-card-top {
+
+                    left: 20px;
+                    display: block;
+                }
+            }
+
+
+            .arrow-btn-sec{
+                   
+               margin-top: 310px;
+
+            }
+        }
+
+        //     logo section
+        // 
+
+        .logo-cont {
+
+            .botton-logo {
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+            }
+        }
+
+
+
+        // subscribe section
+
+
+        .subscribe-cont {
+
+            .bg-shape2 {
+                display: none;
+            }
+
+            .bg-shape1{
+                width: 250px;
+            }
+
+
+
+            .subscribe-text-box {
+
+                input {
+                    margin-bottom: 30px;
+                }
+
+            }
+
+
+
+        }
+    }
+
+
+
+
+
+
+    .footer-cont {
+
+
+        column-gap: 15px;
+
+            
+        .footer-logo-sec{
+            max-width: 200px;
+        }
+
+
+        .footer-media-sec {
+            margin: auto;
+        }
+    }
+}
