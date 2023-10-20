@@ -9,24 +9,15 @@
 
 body {
     overflow-x: hidden;
+    max-width: 100vw;
 }
 
 .header-banner-cont {
 
-    background-image: url('../images/banner image.jpg');
+    background-image: url('../images/banner image.jpg'), url('../images/bg\ shape.png');
     background-repeat: no-repeat;
-    background-position: center;
-    max-width: 1440px;
-    margin: auto;
-    position: relative;
-
-    >img {
-
-        position: absolute;
-        top: -156px;
-        right: -537px;
-        z-index: -1;
-    }
+    background-position: center, 600px -157px;
+   
 
 
     .nav-bar {
@@ -57,11 +48,17 @@ body {
 
                         list-style: none;
                         background-color: rgb(191, 218, 246);
-                        padding: 8px;
+                        padding: 10px;
                         border-radius: 5px;
                         position: absolute;
                         margin-top: 8px;
                         display: none;
+
+                        >li{
+
+                            margin-top: 10px;
+                            cursor: pointer;
+                        }
                     }
 
                     .lagn-drop-down.active {
@@ -392,7 +389,7 @@ body {
 
             .card-text {
 
-                width: 320px;
+                max-width: 320px;
                 margin: auto;
                 margin-top: 25px;
 
@@ -570,7 +567,13 @@ body {
 
 
         }
+
+        
+       
+
     }
+
+
 
 
     .arrow-btn-sec {
@@ -580,6 +583,11 @@ body {
         display: flex;
         flex-direction: column;
         margin-top: 200px;
+
+        .arrow-btn{
+
+            cursor: pointer;
+        }
     }
 }
 

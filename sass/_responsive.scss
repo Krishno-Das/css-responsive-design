@@ -111,6 +111,7 @@
         .book-your-nex-trip-cont {
 
             row-gap: 50px;
+            padding: 10px 20px;
 
             .left-side-text {
                 text-align: center;
@@ -127,6 +128,14 @@
                 margin: auto;
 
                 .trip-card {
+                    margin: auto;
+                    max-width: 300px;
+                    padding: 20px;
+                    position: static;
+                    >img{
+
+                        max-width: 250px;
+                    }
 
                     .card-top {
 
@@ -145,6 +154,7 @@
         .people-say-about-us-cont {
 
             text-align: center;
+            padding: 20px;
 
             .people-say-text {
                 margin: auto;
@@ -159,6 +169,10 @@
                     
                     left: 20px;
                     display: block;
+                    padding-bottom: 10px;
+                    h5{
+                        margin-top: 60px;
+                    }
                 }
             }
         }
@@ -183,6 +197,8 @@
 
 
         .subscribe-cont {
+
+            padding: 0 20px;
 
             .bg-shape2 {
                 max-width: 550px;
