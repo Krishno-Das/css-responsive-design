@@ -1,4 +1,3 @@
-@import "responsive.scss";
 
 * {
     margin: 0;
@@ -7,10 +6,24 @@
     font-family: 'roboto';
 }
 
-body {
-    overflow-x: hidden;
-    max-width: 100vw;
+#cursor{
+    border-radius: 50%;
+    border: 1px solid orange;
+    width: 60px;
+    height: 60px;
+    position: fixed; 
+    z-index: 4;
+    background: transparent;
 }
+#dot{
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 4;
+}
+
 
 .header-banner-cont {
 
@@ -29,6 +42,7 @@ body {
 
         .nav-menu {
             transition: 0.4s;
+            z-index: 3;
 
             >ul {
                 display: flex;
@@ -82,7 +96,7 @@ body {
         .burger-menu {
             position: absolute;
             top: 0;
-            right: 40px;
+            right: 25px;
             top: 50px;
             font-size: 30px;
             display: none;
@@ -272,17 +286,18 @@ body {
             border-radius: 25px;
             width: 313px;
             overflow: hidden;
+            transition: 0.4s;
 
             h5 {
 
-                margin-left: 25px;
+                margin: 0 25px;
                 margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
                 font-size: 1.125rem;
                 font-weight: 400;
 
-                span {
-                    margin-left: 115px;
-                }
+                
             }
 
             h6 {
@@ -291,6 +306,10 @@ body {
                 font-weight: 400;
                 margin-top: 15px;
             }
+        }
+
+        .destination:hover{
+            scale: 1.1 !important;
         }
     }
 }
@@ -304,8 +323,10 @@ body {
     margin: auto;
     margin-top: 150px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 
     .left-side-text {
 
@@ -338,7 +359,7 @@ body {
 
                 >h6 {
 
-                    font-weight: 400;
+                    font-weight: 500;
                     font-size: 1.125rem;
                     margin-bottom: 5px;
 
@@ -346,6 +367,7 @@ body {
 
                 >p {
                     font-size: 1rem;
+                    color: #2e2b2b;
                 }
 
 
@@ -368,98 +390,16 @@ body {
 
     .right-side-card {
 
-        .trip-card {
-            height: 400px;
-            width: 370px;
-            box-shadow: 4px 4px 20px grey;
-            border-radius: 25px;
-            text-align: center;
-            padding-top: 20px;
-            position: relative;
+        display: flex;
+        align-items: center;
+        position: relative;
+        transition: 1s;
 
-            .card-text {
-
-                max-width: 320px;
-                margin: auto;
-                margin-top: 25px;
-
-                h5 {
-                    text-align: left;
-                    font-weight: 400;
-                    font-size: 1.125rem;
-                }
-
-                p {
-                    text-align: left;
-                    margin-top: 15px;
-                    color: rgb(183, 146, 146);
-                }
-
-                .icons {
-                    text-align: left;
-                    margin-top: 25px;
-                }
-            }
-
-            .card-top {
-
-                width: 263px;
-                height: 127px;
-                border-radius: 25px;
-                box-shadow: 2px 2px 20px rgb(186, 172, 172);
-                position: absolute;
-                background-color: #fff;
-                padding: 20px;
-                right: -100px;
-                top: 215px;
-
-                .card-top-top {
-                    display: flex;
-
-                    img {
-
-                        width: 55px;
-                        height: 55px;
-                        margin-right: 15px;
-                    }
-
-                    h6 {
-                        font-size: 1rem;
-                        font-weight: 400;
-                        text-align: left;
-                    }
-
-                    h5 {
-                        font-size: 1.125rem;
-                        font-weight: 500;
-                        margin-top: 5px;
-                    }
-                }
-
-                p {
-                    margin-left: 12px;
-                    font-size: 0.95rem;
-                    margin-top: 5px;
-                }
-
-                .card-progress-bar {
-
-                    background-color: rgb(233, 224, 224);
-                    height: 5px;
-                    width: 160px;
-                    margin-top: 8px;
-                    margin-left: auto;
-                    border-radius: 5px;
-
-                    .card-persent-progress {
-                        height: 100%;
-                        width: 40%;
-                        background-color: blue;
-                        border-radius: 5px;
-                    }
-                }
-            }
-        }
+       >img{
+        position: absolute;
+        right: -125px;
+        transition: 1s;
+       }
     }
 
 }
@@ -588,12 +528,15 @@ body {
     margin: auto;
     margin-top: 100px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    gap: 20px;
     align-items: center;
 
     .botton-logo {
 
-        width: 245px;
+        min-width: 199px;
+        margin: auto;
         height: 80px;
         justify-content: center;
         display: flex;
@@ -648,7 +591,7 @@ body {
         background-color: #f8f7fd;
         border-top-left-radius: 110px;
         margin-left: 80px;
-        width: 1170px;
+        width: 94%;
         position: absolute;
     }
 
@@ -758,6 +701,9 @@ body {
         .fa-brands {
 
             padding: 12px;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
             box-shadow: 1px 1px 5px rgb(205, 196, 196);
             border-radius: 50%;
             margin-right: 20px;

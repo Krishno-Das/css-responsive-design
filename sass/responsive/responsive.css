@@ -1,0 +1,335 @@
+@media screen and (max-width: 480px) {
+  * {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+  }
+  html {
+    font-size: 14px;
+  }
+  body #dot {
+    display: none;
+  }
+  body #cursor {
+    display: none;
+  }
+  body .header-banner-cont {
+    background-image: url("../images/banner mobile.png");
+    background-size: cover;
+    background-position: center;
+  }
+  body .header-banner-cont > img {
+    display: none;
+  }
+  body .header-banner-cont .nav-bar {
+    padding-left: 20px;
+  }
+  body .header-banner-cont .nav-bar #burger-menu {
+    display: block;
+  }
+  body .header-banner-cont .nav-bar .nav-menu {
+    background-color: #fff1da;
+    position: absolute;
+    z-index: 2;
+    left: -1000px;
+    top: 120px;
+    width: 100vw;
+    max-height: 1111px;
+    padding: 30px 0;
+  }
+  body .header-banner-cont .nav-bar .nav-menu > ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  body .header-banner-cont .main-container {
+    padding: 0 20px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  body .header-banner-cont .main-container h6 {
+    font-size: 1rem;
+  }
+  body .header-banner-cont .main-container h1 {
+    font-size: 3rem;
+  }
+  body .services-cont {
+    margin-top: 65px;
+  }
+  body .services-cont h2 {
+    margin-bottom: 40px;
+  }
+  body .services-cont .service-box {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+  }
+  body .services-cont .service-box .service {
+    margin: 20px auto;
+  }
+  body .top-destinations-cont .top-destination-box {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 40px;
+  }
+  body .top-destinations-cont .destination {
+    margin: auto;
+  }
+  body .book-your-nex-trip-cont {
+    row-gap: 50px;
+    padding: 10px 20px;
+  }
+  body .book-your-nex-trip-cont .left-side-text {
+    text-align: center;
+    margin: auto;
+  }
+  body .book-your-nex-trip-cont .left-side-text .step-box {
+    margin: auto;
+    margin-top: 30px;
+  }
+  body .book-your-nex-trip-cont .right-side-card {
+    margin: auto;
+  }
+  body .book-your-nex-trip-cont .right-side-card > img {
+    position: static;
+    max-width: 250px;
+  }
+  body .people-say-about-us-cont {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  body .people-say-about-us-cont .people-say-text {
+    margin: auto;
+  }
+  body .people-say-about-us-cont .people-say-card {
+    margin: auto;
+  }
+  body .people-say-about-us-cont .people-say-card .people-say-card-top {
+    left: 20px;
+    display: block;
+    padding-bottom: 10px;
+  }
+  body .people-say-about-us-cont .people-say-card .people-say-card-top h5 {
+    margin-top: 60px;
+  }
+  body .logo-cont .botton-logo {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  body .subscribe-cont {
+    padding: 0 20px;
+  }
+  body .subscribe-cont .bg-shape2 {
+    width: 78%;
+  }
+  body .subscribe-cont .bg-shape3 {
+    width: 200px;
+  }
+  body .subscribe-cont .bg-shape1 {
+    width: 300px;
+  }
+  body .subscribe-cont .subscribe-text-box input {
+    margin-bottom: 30px;
+  }
+  .footer-cont {
+    padding: 0 20px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .footer-cont .footer-logo-sec {
+    max-width: 200px;
+  }
+  .footer-cont .footer-media-sec {
+    margin: auto;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  * {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+  }
+  html {
+    font-size: 15px;
+  }
+  body #dot {
+    display: none;
+  }
+  body #cursor {
+    display: none;
+  }
+  body .header-banner-cont {
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 5px;
+  }
+  body .header-banner-cont .nav-bar {
+    padding: 0 20px;
+  }
+  body .header-banner-cont .nav-bar #burger-menu {
+    display: block;
+  }
+  body .header-banner-cont .nav-bar .nav-menu {
+    background-color: #fff1da;
+    position: absolute;
+    left: -1000px;
+    top: 120px;
+    width: 100vw;
+    max-height: 1111px;
+    padding: 30px 0;
+  }
+  body .header-banner-cont .nav-bar .nav-menu > ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  body .header-banner-cont .main-container {
+    width: 100%;
+    padding: 0 20px;
+  }
+  body .header-banner-cont .main-container h6 {
+    font-size: 1rem;
+  }
+  body .header-banner-cont .main-container h1 {
+    font-size: 3.5rem;
+  }
+  body .header-banner-cont .main-container > p {
+    max-width: 300px;
+  }
+  body .services-cont {
+    margin-top: 70px;
+  }
+  body .services-cont .service-box {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+  }
+  body .services-cont .service-box .service {
+    margin: 20px auto;
+  }
+  body .top-destinations-cont .top-destination-box {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 60px;
+  }
+  body .top-destinations-cont .destination {
+    margin: auto;
+  }
+  body .book-your-nex-trip-cont {
+    row-gap: 50px;
+  }
+  body .book-your-nex-trip-cont .left-side-text {
+    text-align: center;
+    margin: auto;
+  }
+  body .book-your-nex-trip-cont .left-side-text > h2 {
+    font-size: 2.9rem;
+  }
+  body .book-your-nex-trip-cont .left-side-text .step-box {
+    margin: auto;
+    margin-top: 30px;
+  }
+  body .book-your-nex-trip-cont .right-side-card {
+    margin: auto;
+  }
+  body .book-your-nex-trip-cont .right-side-card > img {
+    position: static;
+    max-width: 450px;
+  }
+  body .people-say-about-us-cont {
+    text-align: center;
+  }
+  body .people-say-about-us-cont .people-say-text {
+    margin: auto;
+  }
+  body .people-say-about-us-cont .people-say-card {
+    margin: auto;
+  }
+  body .people-say-about-us-cont .people-say-card .people-say-card-top {
+    left: 20px;
+    display: block;
+  }
+  body .people-say-about-us-cont .arrow-btn-sec {
+    margin-top: 310px;
+  }
+  body .logo-cont .botton-logo {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  body .subscribe-cont .bg-shape2 {
+    margin: 0;
+  }
+  body .subscribe-cont .bg-shape1 {
+    width: 250px;
+  }
+  body .subscribe-cont .subscribe-text-box input {
+    margin-bottom: 30px;
+  }
+  .footer-cont {
+    -moz-column-gap: 15px;
+         column-gap: 15px;
+  }
+  .footer-cont .footer-logo-sec {
+    max-width: 200px;
+  }
+  .footer-cont .footer-media-sec {
+    margin: auto;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1289px) {
+  body .header-banner-cont .nav-bar {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+  body .header-banner-cont .nav-bar .nav-menu > ul {
+    gap: 32px;
+  }
+  body .header-banner-cont .main-container {
+    padding-left: 10px;
+  }
+  body .services-cont .service-box {
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+  }
+  body .top-destination-box {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  body .top-destination-box .destination {
+    margin: auto;
+  }
+  body .book-your-nex-trip-cont {
+    gap: 60px;
+    max-width: 1000px;
+  }
+  body .book-your-nex-trip-cont .left-side-text {
+    margin: auto;
+  }
+  body .book-your-nex-trip-cont .right-side-card {
+    margin: auto;
+  }
+  body .book-your-nex-trip-cont .right-side-card > img {
+    position: static;
+    max-width: 450px;
+  }
+  body .people-say-about-us-cont {
+    padding: 0 20px;
+  }
+  body .subscribe-cont .bg-shape2 {
+    width: 90%;
+  }
+  body .footer-cont {
+    gap: 30px;
+    padding: 0 20px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

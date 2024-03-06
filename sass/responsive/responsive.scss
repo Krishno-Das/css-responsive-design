@@ -1,4 +1,4 @@
-@media screen and (max-width:992px) {
+@media screen and (max-width:480px) {
 
 
 
@@ -8,19 +8,36 @@
         row-gap: 30px;
     }
 
+    html{
+        font-size: 14px;
+    }
+
+ 
     body {
+
+        #dot{
+            display: none;
+        }
+        #cursor{
+            display: none;
+        }
 
 
         //  nav section
 
         .header-banner-cont {
 
-          >img{
-            display: none;
-          }
+            background-image: url('../images/banner mobile.png');
+            background-size: cover;
+            background-position: center;
+
+            >img {
+                display: none;
+            }
 
             .nav-bar {
                 padding-left: 20px;
+
                 #burger-menu {
 
                     display: block;
@@ -29,6 +46,7 @@
                 .nav-menu {
                     background-color: #fff1da;
                     position: absolute;
+                    z-index: 2;
                     left: -1000px;
                     top: 120px;
                     width: 100vw;
@@ -48,14 +66,18 @@
 
 
             .main-container {
-                padding-left: 20px;
+
+                padding: 0 20px;
+                width: 100%;
+                margin-top: 20px;
+
                 h6 {
                     font-size: 1rem;
 
                 }
 
                 h1 {
-                    font-size: 2rem;
+                    font-size: 3rem;
                 }
 
 
@@ -67,6 +89,11 @@
         // service section
 
         .services-cont {
+            margin-top: 65px;
+
+            h2{
+                margin-bottom: 40px;
+            }
 
             .service-box {
 
@@ -92,7 +119,7 @@
                 display: flex;
                 justify-content: center;
                 gap: 40px;
-                padding: 0 60px;
+                padding: 0 40px;
 
             }
 
@@ -127,22 +154,15 @@
             .right-side-card {
                 margin: auto;
 
-                .trip-card {
-                    margin: auto;
-                    max-width: 300px;
-                    padding: 20px;
-                    position: static;
-                    >img{
+                    > img {
 
+                        position: static;
                         max-width: 250px;
                     }
 
-                    .card-top {
+                    
 
-                        display: none;
-                    }
-
-                }
+                
             }
         }
 
@@ -155,6 +175,7 @@
 
             text-align: center;
             padding: 20px;
+            margin-top: 40px;
 
             .people-say-text {
                 margin: auto;
@@ -166,11 +187,12 @@
 
                 .people-say-card-top {
 
-                    
+
                     left: 20px;
                     display: block;
                     padding-bottom: 10px;
-                    h5{
+
+                    h5 {
                         margin-top: 60px;
                     }
                 }
@@ -201,7 +223,13 @@
             padding: 0 20px;
 
             .bg-shape2 {
-                max-width: 550px;
+                width: 78%;
+            }
+            .bg-shape3{
+                width: 200px;
+            }
+            .bg-shape1{
+                width: 300px;
             }
 
 
@@ -229,8 +257,8 @@
 
         column-gap: 20px;
 
-            
-        .footer-logo-sec{
+
+        .footer-logo-sec {
             max-width: 200px;
         }
 
@@ -242,7 +270,7 @@
 }
 
 
-@media screen and (max-width:640px) {
+@media screen and (min-width:481px) and (max-width:768px) {
 
 
 
@@ -252,16 +280,32 @@
         row-gap: 30px;
     }
 
+    html{
+        font-size: 15px;
+    }
+
     body {
+
+        #dot{
+            display: none;
+        }
+        #cursor{
+            display: none;
+        }
 
         //  nav section
 
         .header-banner-cont {
 
-            background-image: url('../images/banner mobile.png');
             background-position: center;
+            background-size: cover;
+            padding-bottom: 5px;
+
+
 
             .nav-bar {
+
+                padding: 0 20px;
 
                 #burger-menu {
 
@@ -287,20 +331,23 @@
             }
 
 
-
-
             .main-container {
+
+                width: 100%;
+                padding: 0 20px;
+
                 h6 {
                     font-size: 1rem;
 
                 }
 
                 h1 {
-                    font-size: 2rem;
+                    font-size: 3.5rem;
                 }
 
-                max-width: 200px;
-                margin: 0;
+                >p {
+                    max-width: 300px;
+                }
 
             }
         }
@@ -310,6 +357,8 @@
         // service section
 
         .services-cont {
+
+            margin-top: 70px;
 
             .service-box {
 
@@ -359,6 +408,10 @@
                 text-align: center;
                 margin: auto;
 
+                >h2{
+                     font-size: 2.9rem;
+                }
+
 
                 .step-box {
                     margin: auto;
@@ -369,13 +422,9 @@
             .right-side-card {
                 margin: auto;
 
-                .trip-card {
-
-                    .card-top {
-
-                        display: none;
-                    }
-
+                >img{
+                   position: static;
+                   max-width: 450px;
                 }
             }
         }
@@ -405,9 +454,9 @@
             }
 
 
-            .arrow-btn-sec{
-                   
-               margin-top: 310px;
+            .arrow-btn-sec {
+
+                margin-top: 310px;
 
             }
         }
@@ -434,10 +483,10 @@
         .subscribe-cont {
 
             .bg-shape2 {
-                display: none;
+                margin: 0;
             }
 
-            .bg-shape1{
+            .bg-shape1 {
                 width: 250px;
             }
 
@@ -466,8 +515,8 @@
 
         column-gap: 15px;
 
-            
-        .footer-logo-sec{
+
+        .footer-logo-sec {
             max-width: 200px;
         }
 
@@ -476,4 +525,90 @@
             margin: auto;
         }
     }
+}
+
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1289px) {
+
+    body {
+        .header-banner-cont {
+
+            .nav-bar {
+                font-size: 15px;
+                padding: 0 10px;
+
+                .nav-menu {
+
+                    >ul {
+                        gap: 32px;
+                    }
+                }
+            }
+
+            .main-container{
+
+                padding-left: 10px;
+            }
+        }
+
+        .services-cont {
+
+            .service-box {
+
+                flex-wrap: wrap;
+                gap: 50px;
+                justify-content: center;
+            }
+        }
+
+        .top-destination-box{
+
+            flex-wrap: wrap;
+            gap: 50px;
+            .destination{
+
+                margin: auto;
+            }
+        }
+
+
+        .book-your-nex-trip-cont{
+
+            gap: 60px;
+            max-width: 1000px;
+
+            .left-side-text{
+                margin: auto;
+            }
+
+            .right-side-card{
+
+                margin: auto;
+                
+                >img{
+                    position: static;
+                    max-width: 450px;
+                }
+            }
+        }
+
+
+        .people-say-about-us-cont{
+            padding: 0 20px;
+        }
+
+        .subscribe-cont{
+            .bg-shape2{
+                width:90%;
+            }
+        }
+
+        .footer-cont{
+            gap: 30px;
+            padding: 0 20px;
+        }
+    }
+
 }
